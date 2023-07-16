@@ -1,5 +1,4 @@
-import Fastify from "fastify"
+import {FastifyPlatform} from './platform';
 
-export function create(){
-    const fastify = Fastify({});
-}
+const f= new FastifyPlatform();
+f.listen(8080);
