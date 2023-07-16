@@ -1,0 +1,17 @@
+{
+  "name": "@thestarweb/star-node-framework",
+  "version": "1.0.0",
+  "description": "Node框架",
+  "main": "index.js",
+  "scripts": {},
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "star",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  }
+}
