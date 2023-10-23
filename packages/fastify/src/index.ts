@@ -1,4 +1,4 @@
-import {FastifyPlatform} from './platform';
+import { FastifyPlatform } from './platform';
 
-const f= new FastifyPlatform();
+const f = new FastifyPlatform();
 f.listen(8080);
